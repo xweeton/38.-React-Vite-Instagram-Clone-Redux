@@ -1,0 +1,29 @@
+.tabContainer {
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.tabItem {
+  border-top: 2px solid transparent !important;
+  transition: border-color 0.3s ease !important;
+  color: darkgrey !important;
+}
+
+.tabItem:hover {
+  border-color: black !important;
+  color: black !important;
+}
+
+.tabItem.active {
+  border-color: black !important;
+  color: black !important;
+}
+
+.postContainer {
+  color: transparent;
+}
+
+.postContainer:hover {
+  opacity: 75%;
+  color: white;
+}
